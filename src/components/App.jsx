@@ -3,7 +3,7 @@ import { Player } from './Player';
 import { VideoList } from './VideoList/videolist';
 import videos from './data/data.json';
 
-export class Example1 extends Component {
+export class App extends Component {
   state = {
     selectedVideo: null,
   };
